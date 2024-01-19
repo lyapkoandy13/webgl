@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebGL2</title>
+    <style>
+      html,
+      body {
+        overflow: hidden;
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+
+      #error {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        color: red;
+        text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+          1px 1px 0 #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="error"></div>
+    <canvas id="myCanvas"></canvas>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
